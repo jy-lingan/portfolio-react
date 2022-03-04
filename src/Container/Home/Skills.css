@@ -1,0 +1,157 @@
+/* background : #f1785a; */
+
+.MySkills {
+    font-family     : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align      : center;
+    color           : #fff;
+    width           : 200px;
+    padding         : 5px 10px 5px 10px;
+    border-radius   : 150px;
+    background-image: linear-gradient(120deg, #151D3B 0%, #6EBF8B 100%);
+    margin          : 5px auto;
+    margin-top      : 20px;
+    margin-bottom   : 20px;
+    box-shadow      : 0 0 0 5px #fff;
+    font-size       : 1.5em;
+    font-weight     : bold;
+    text-shadow     : 0 0 0.2em #6EBF8B;
+    text-align      : center;
+}
+
+.skills {
+    text-align    : right;
+    padding-top   : 10px;
+    padding-bottom: 10px;
+    color         : white;
+    margin        : 10px 0 20px 0;
+    border-radius : 30px;
+    box-shadow    : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills>span {
+    font-size: 1.5em;
+}
+
+.html {
+    width           : 90%;
+    background-color: #df4314;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*colores HTML5*/
+    background-image: linear-gradient(120deg, #df4314 0%, #f7b733 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.css {
+    width           : 80%;
+    background-color: #144adf;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*COLORES CSS3 */
+    background-image: linear-gradient(120deg, #144adf 0%, #2ecc71 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.bootstrap {
+    width           : 70%;
+    background-color: #820aa0;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*COLORES BOOTSTRAP */
+    background-image: linear-gradient(120deg, #820aa0 0%, #f3f3f3 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.js {
+    width: 65%;
+    background-color: #c2e916;
+    margin: 10px auto;
+    border-radius: 15px;
+    /*COLORES JS */
+    background-image: linear-gradient(120deg, #c2e916 0%, #f7b733 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.python {
+    width           : 55%;
+    background-color: #1729ca;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*COLORES PYTHON */
+    background-image: linear-gradient(120deg, #1729ca 0%, #f7b733 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.django {
+    width           : 50%;
+    background-color: #247435;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*COLORES DJANGO */
+    background-image: linear-gradient(120deg, #106623 0%, #33f764 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.psql {
+    width           : 40%;
+    background-color: #3698f4;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*COLORES PSQL */
+    background-image: linear-gradient(120deg, #3698f4 0%, #f3ead9 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+}
+
+.react {
+    width           : 25%;
+    background-color: #f47236;
+    margin          : 10px auto;
+    border-radius   : 15px;
+    /*COLORES REACT */
+    background-image: linear-gradient(120deg, #00ffff 0%, #7fffd4 100%);
+    color: #000;
+    animation: barras 2.5s infinite;
+
+}
+
+.dev {
+    padding-bottom: 5px;
+    color: #000;
+
+}
+
+/* creanmos una animacion para la barrra de progreso */
+/* @keyframes barras {    
+    25% {
+        background-image: linear-gradient(120deg, #820aa0 0%, #f3f3f3 100%);
+    }
+    40% {
+        background-image: linear-gradient(120deg, #c2e916 0%, #f7b733 100%);
+    }
+    50% {
+        background-image: linear-gradient(120deg, #144adf 0%, #2ecc71 100%);
+    }
+    55% {
+        background-image: linear-gradient(120deg, #1729ca 0%, #f7b733 100%);
+    }
+    65% {
+        background-image: linear-gradient(120deg, #247435 0%, #33f764 100%);
+    }
+    70% {
+        background-image: linear-gradient(120deg, #3698f4 0%, #f3ead9 100%);
+    }
+    80% {
+        background-image: linear-gradient(120deg, #f47236 0%, #f7b733 100%);
+    }
+    90% {
+        background-image: linear-gradient(120deg, #00ffff 0%, #7fffd4 100%);
+    }
+}
+ */

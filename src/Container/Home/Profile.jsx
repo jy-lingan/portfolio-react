@@ -1,5 +1,5 @@
 import "./Profile.css"
-
+import jimmys from "../../Assets/Home/jimmy.jpg"
 const Profile = () => {
     return (
         <div className="container">
@@ -43,13 +43,58 @@ const Profile = () => {
                         </span>
                     </div>
                     <div className="profile-detalis-description">
-                        <button className="btn btn-secondary btn-lg disabled">
+                        {/* <button className="btn btn-secondary btn-lg disabled">
                             {""}                        
                             CV {" "}
-                        </button>
+                        </button> */}
                         <a href="#" download={'Jimmy jimdev.pdf'}>
-                            <button className="btn highlighted-btn">Descargar</button>
+                            <button className="btn btn-dark">Descargar CV</button>
                         </a>
+                    </div>
+
+                    <div className="profile-picture">
+                        <div className="profile-picture-background">
+                            <img className="jimmys" src={jimmys} alt="jimmy" />
+                        </div>
+                    </div>
+
+                    <div className="profile-detalis-skills">
+                        <span className="primary-text">
+                            {" "}
+                            <h1 className="h1-jimmy">Habilidades</h1>
+
+                        </span>
+                        <div className="skills">
+                            <span className="html5">
+                                <i class="bi bi-filetype-html"></i>
+                            </span>
+                            <span className="css3">
+                                <i class="bi bi-filetype-css"></i>
+                            </span>
+                            <span className="javascript">
+                                <i class="bi bi-js"></i>
+                            </span>
+                            <span className="reactjs">
+                                <i class="bi bi-filetype-jsx"></i>
+                            </span>
+                            <span className="nodejs">
+                                <i class="bi bi-filetype-js"></i>
+                            </span>
+                            <span className="python">
+                                <i class="bi bi-filetype-py"></i>
+                            </span>
+                            <span className="bootstrap">
+                                <i class="bi bi-bootstrap"></i>
+                            </span>
+                            <span className="git">
+                                <i class="bi bi-git"></i>
+                            </span>
+                            <span className="github">
+                                <i class="bi bi-github"></i>
+                            </span>
+                        </div>
+
+                        
                     </div>
 
                 </div>

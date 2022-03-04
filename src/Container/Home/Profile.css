@@ -1,43 +1,129 @@
-.facebook{
+.facebook {
     background-color: #3b5998;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 5px;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
 }
-.twitter{
+
+.twitter {
     background-color: #00aced;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 5px;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
 }
-.instagram{
+
+.instagram {
     background-color: #E1306C;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 5px;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
 }
-.github{
+
+.github {
     background-color: #333;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 5px;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+/* skill */
+.skills {
+    margin-top   : 20px;
+    margin-bottom: 20px;
+}
+
+.html5 {
+    background-color: #e34f26;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.css3 {
+    background-color: #00b7ee;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.js {
+    background-color: #f1e05a;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.nodejs {
+    background-color: #136e31;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.reactjs {
+    background-color: #00D8FF;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.python {
+    background-color: #3572A5;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.bootstrap {
+    background-color: #563d7c;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+.git {
+    background-color: #f1785a;
+    color           : #fff;
+    border-radius   : 5px;
+    padding         : 5px;
+    margin-right    : 5px;
+}
+
+/* img */
+/* creando un efecto circular sobresaliente y transparente*/
+.jimmys {
+    border-radius: 50%;
+    border       : 5px solid #fff;
+    box-shadow   : 0 0 0 5px #fff;
+    width        : 250px;
+    height       : 250px;
+    margin       : 0 auto;
+    margin-top   : 20px;
+    margin-bottom: 20px;
 }
 
 .h1-jimmy {
-    font-size    : 2.5em;
-    font-weight  : bold;
-    color        : #151D3B;
-    text-shadow  : 0 0 0.2em #6EBF8B;
-    text-align   : center;
-    margin-top   : 0;
-    margin-bottom: 0;
-    float       : left;
-    width       : 100%;
-    padding-top  : 0.5em;
+    font-size     : 2.5em;
+    font-weight   : bold;
+    color         : #151D3B;
+    text-shadow   : 0 0 0.2em #6EBF8B;
+    text-align    : center;
+    margin-top    : 0;
+    margin-bottom : 0;
+    float         : left;
+    width         : 100%;
+    padding-top   : 0.5em;
     padding-bottom: 0.5em;
 
 }
@@ -72,16 +158,16 @@
 
 
 .h2-jimmy {
-    font-size    : 1.5em;
-    font-weight  : bold;
-    color        : #151D3B;
-    text-shadow  : 0 0 0.2em #6EBF8B;
-    text-align   : center;
-    margin-top   : 0;
-    margin-bottom: 0;
-    float       : left;
-    width       : 100%;
-    padding-top  : 0.5em;
+    font-size     : 1.5em;
+    font-weight   : bold;
+    color         : #151D3B;
+    text-shadow   : 0 0 0.2em #6EBF8B;
+    text-align    : center;
+    margin-top    : 0;
+    margin-bottom : 0;
+    float         : left;
+    width         : 100%;
+    padding-top   : 0.5em;
     padding-bottom: 0.5em;
 }
 
@@ -91,31 +177,32 @@
 
 
 .profile-img-container {
-    text-align   : center;
-    margin-top   : 0;
-    margin-bottom: 0;
-    color        : #151D3B;
-    text-shadow  : 0 0 0.2em #6EBF8B;
-    float        : right;
-    width        : 100%;
-    padding-top  : 0.5em;
+    text-align    : center;
+    margin-top    : 0;
+    margin-bottom : 0;
+    color         : #151D3B;
+    text-shadow   : 0 0 0.2em #6EBF8B;
+    float         : right;
+    width         : 100%;
+    padding-top   : 0.5em;
     padding-bottom: 0.5em;
 
 }
 
 .h3-jimmy {
-    font-size    : 1.5em;
-    font-weight  : bold;
-    color        : #495371;
-    text-shadow  : 0 0 0.2em #74959A;
-    text-align   : center;
-    margin-top   : 0;
-    margin-bottom: 0;
-    float       : left;
-    width       : 100%;
-    padding-top  : 0.5em;
+    font-size     : 1.5em;
+    font-weight   : bold;
+    color         : #495371;
+    text-shadow   : 0 0 0.2em #74959A;
+    text-align    : center;
+    margin-top    : 0;
+    margin-bottom : 0;
+    float         : left;
+    width         : 100%;
+    padding-top   : 0.5em;
     padding-bottom: 0.5em;
 }
+
 .h3-jimmy:hover {
     color: #74959A;
 }
@@ -131,6 +218,7 @@
     50% {
         transform: translateY(-10px);
     }
+
     100% {
         transform: translateY(0);
     }
