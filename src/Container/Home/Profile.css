@@ -1,4 +1,32 @@
-/* Creando un titulo animado en el perfil con #151D3B y #6EBF8B */
+.facebook{
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.twitter{
+    background-color: #00aced;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.instagram{
+    background-color: #E1306C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.github{
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
 .h1-jimmy {
     font-size    : 2.5em;
     font-weight  : bold;
@@ -88,6 +116,11 @@
     padding-top  : 0.5em;
     padding-bottom: 0.5em;
 }
+.h3-jimmy:hover {
+    color: #74959A;
+}
+
+
 
 
 @keyframes titulo {
